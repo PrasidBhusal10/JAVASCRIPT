@@ -85,12 +85,17 @@ name = 'Bhusal';
 console.log(name)
 
 */
-/*
- var a = 'prasid';
- console.log(a)
 
- */
-let a = 'prasid'
-console.log(a)
+/* FUNCTION IN JAVASCRIPT
+function myname(){
+    console.log('Prasid Bhusal')
+}
+myname();
 
- 
+*/
+
+function myname(a,b){
+    console.log(a * b);
+}
+myname(5,6);
+myname(4,3);
