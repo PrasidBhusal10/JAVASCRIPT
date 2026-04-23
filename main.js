@@ -199,7 +199,7 @@ console.log(switchstatement(4))
 
 */
 
-// OBJECTS IN JAVASCRIPT
+//OBJECTS IN JAVASCRIPT
 var biodata ={
     'name': 'prasid',
     'age': 20,
@@ -207,7 +207,91 @@ var biodata ={
     'phone number': 8065593055
 }
 
-var namevalue = biodata.name; // METHOD OF GETTING VALUE
+/*var namevalue = biodata.name; // METHOD OF GETTING VALUE
 var agevalue = biodata.age;
 console.log(namevalue);
 console.log(agevalue)
+
+ var namevalue1 = biodata['age']; // Using bracket method to access value
+ console.log(namevalue1)
+ 
+delete biodata.name; // Deleting the properties 
+console.log(biodata);
+
+*/
+
+/* Changing the property value
+var dog = {
+    'name': 'Hari'
+}
+dog.name= 'Ramu';
+console.log(dog.name)
+
+*/
+
+/* WHILE LOOPS IN JAVASCRIPT
+var myarray = [];
+var i = 0;
+while (i < 5){
+    myarray.push(i);
+    i++;
+}
+console.log(myarray)
+*/
+
+/* FOR LOOPS IN JAVASCRIPT
+var myarray = [];
+var i = 0
+for(i= 0; i<5; i++){
+    myarray.push(i);
+}
+console.log(myarray)
+
+*/
+
+/* ITERATING THROUGH ARRAY USING A FOR LOOP
+var array = [10,20,30,40];
+var total = 0;
+var i = 0;
+for (i = 0; i < array.length; i++){
+    total += array[i]
+}
+console.log(total)
+
+*/
+
+/* CREATING RANDOM FRACTION IN JAVASCRIPT
+function randomfraction(){
+    return Math.random();
+}
+console.log(randomfraction())
+
+*/
+
+
+/* CREATING RANDOM WHOLE NUMBERS
+function randomnumber(){
+    return Math.floor(Math.random() * 100);
+}
+console.log(randomnumber());
+
+*/
+
+/* CREATING A RANDOM WHOLE NUMBER BETWEEN A LIMIT
+function wholenumber(start, end){
+    return Math.floor(Math.random() * (end -  start + 1)) + start;
+}
+var myrandom = wholenumber(7,20);
+console.log(myrandom)
+
+*/
+
+
+/* TERNARY OPERATOR
+function checkequal(a,b){
+    return a === b? true : false;
+}
+console.log(checkequal(1,2));
+
+*/
+
