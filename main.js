@@ -90,7 +90,7 @@ console.log(name)
  console.log(a)
 
  */
-const a = 'prasid'
+let a = 'prasid'
 console.log(a)
 
  
