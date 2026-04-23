@@ -95,3 +95,31 @@ a[2]= 2;
 console.log(a)
 
 */
+
+/* Accessing the value from multiple Array
+var myarray = [[1,2,3],[4,5,6],[7,8,9],[[10,11,12], 13, 14]];
+var mydata = myarray[2][1];
+console.log(mydata);
+
+*/
+
+/* Push and pop operation on array
+var myarray = [[1,2,3],[4,5,6],[7,8,9],[[10,11,12], 13, 14]];
+//myarray.push(['dog','elephant']);
+myarray.pop();
+console.log(myarray);
+
+*/
+
+/* Removing the first element of the array
+var a = [[1,2,3],[4,5,6]]
+a.shift()
+console.log(a)
+
+*/
+
+/* To add in the beginning of the list
+var a = [[1,2,3],[4,5,6]]
+a.unshift('Prasid')
+console.log(a)
+*/
