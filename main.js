@@ -93,9 +93,121 @@ function myname(){
 myname();
 
 */
-
+/*
 function myname(a,b){
     console.log(a * b);
 }
 myname(5,6);
 myname(4,3);
+
+*/
+
+
+/*Global vs local variable
+var a = 'prasid'; //Global variable because it is outside the function
+function name(){
+    var a = 'Bhusal' //Local variable because it is inside the function
+    console.log(a)
+}
+name()
+console.log(a)
+
+*/
+
+/* BOOLEAN IN JAVASCRIPT
+function boolean(){
+    return true;
+
+
+}
+console.log(boolean())
+
+*/
+
+/* IF STATEMENT
+function trueorfalse(hey){
+    if (hey){ // if automatically no which is  true and which is false
+        return 'Yes, that was true'
+    }
+    return 'No, that was false' //the second sentence is always false
+}
+console.log(trueorfalse(true))
+*/
+
+
+
+/* getting the result by putting the value with the equality operator
+function testequal(val){
+    if(val == 12){
+        return 'Equal';
+    }
+    return 'Not equal'
+}
+console.log(testequal(12))
+
+*/
+
+/* getting the result with the unequality operator
+function testequal(val){
+    if(val != 12){
+        return 'Equal';
+    }
+    return 'Not equal'
+}
+console.log(testequal(12))
+
+*/
+
+
+/*IF ELSE IF CONDITION IN JAVASCRIPT
+function orderlogic(val){
+    if(val < 10){
+        return 'less than 10';
+    }
+    else if(val < 5){
+        return 'less than 5';
+    }
+    else{
+        return 'greater than or eqaul to 10';
+    }
+}
+console.log(orderlogic(9))
+*/
+
+/* SWITCH STATEMENT 
+function switchstatement(val){
+    var answer = '';
+    switch(val){
+        case 1:
+            answer = 'alpha';
+            break;
+        case 2:
+            answer = 'beta';
+            break;
+        case 3:
+            answer = 'theta'
+            break;
+        case 4:
+            answer = 'delta'
+            break;
+         
+
+    }
+    return answer
+}
+console.log(switchstatement(4))
+
+*/
+
+// OBJECTS IN JAVASCRIPT
+var biodata ={
+    'name': 'prasid',
+    'age': 20,
+    'address': 'lubbock',
+    'phone number': 8065593055
+}
+
+var namevalue = biodata.name; // METHOD OF GETTING VALUE
+var agevalue = biodata.age;
+console.log(namevalue);
+console.log(agevalue)
