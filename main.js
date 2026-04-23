@@ -85,6 +85,10 @@ name = 'Bhusal';
 console.log(name)
 
 */
+/*
  var a = 'prasid';
  console.log(a)
+
+ */
+
  
