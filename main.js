@@ -90,5 +90,7 @@ console.log(name)
  console.log(a)
 
  */
+const a = 'prasid'
+console.log(a)
 
  
