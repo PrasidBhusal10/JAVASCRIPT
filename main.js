@@ -84,8 +84,14 @@ var name = 'prasid'
 name = 'Bhusal';
 console.log(name)
 
-*\
+/*
 var a = 'name';
 console.log(a)
- 
-*\
+ */
+
+/*changing the value of the array
+var a =[1,2,4,5,6];
+a[2]= 2;
+console.log(a)
+
+*/
