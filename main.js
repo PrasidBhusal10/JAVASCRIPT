@@ -84,5 +84,8 @@ var name = 'prasid'
 name = 'Bhusal';
 console.log(name)
 
-*/
+*\
+var a = 'name';
+console.log(a)
  
+*\
